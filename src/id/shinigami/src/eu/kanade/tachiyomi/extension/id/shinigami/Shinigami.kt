@@ -26,7 +26,7 @@ import kotlin.time.Instant
 
 @Source
 abstract class Shinigami : KeiSource() {
-    private val apiUrl = "https://api.shngm.io"
+    private val apiUrl = "https://s1.shinigami.mx/"
 
     private val apiHeaders: Headers
         get() = headersBuilder()
